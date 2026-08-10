@@ -106,7 +106,7 @@ img { display: block; max-width: 100%; }
 }
 
 .poster-frame {
-  width: min(72vh, 790px, 86vw);
+  width: min(1500px, 94vw);
   border: 1px solid rgba(255,255,255,.2);
   box-shadow: 0 2rem 7rem rgba(0,0,0,.78), 0 0 0 8px rgba(0,0,0,.25);
 }
@@ -248,7 +248,7 @@ h2 { font-size: clamp(3.25rem, 9vw, 8rem); }
   .site-nav { position: absolute; top: 4.3rem; right: 1rem; display: none; min-width: 175px; padding: .5rem; border: 1px solid var(--line); background: rgba(9,9,9,.96); flex-direction: column; gap: 0; }
   .site-nav.is-open { display: flex; }
   .site-nav a { padding: .85rem; }
-  .poster-frame { width: min(86vw, 520px); }
+  .poster-frame { width: 94vw; }
   .scroll-cue { right: 50%; transform: translateX(50%); }
   .story-section { display: block; }
   .logline { margin-top: 1.25rem; }
