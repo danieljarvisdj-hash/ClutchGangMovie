@@ -98,7 +98,7 @@ img { display: block; max-width: 100%; }
   position: absolute;
   z-index: -1;
   inset: -5%;
-  background: url("assets/clutch-gang-poster.jpg") center / cover;
+  background: url("assets/clutch-gang-landscape.jpg") center / cover;
   content: "";
   filter: blur(55px) brightness(.35) saturate(.65);
   opacity: .75;
@@ -178,7 +178,7 @@ h2 { font-size: clamp(3.25rem, 9vw, 8rem); }
   text-align: center;
   background:
     linear-gradient(rgba(8,8,7,.58), rgba(8,8,7,.78)),
-    url("assets/clutch-gang-poster.jpg") center 22% / cover;
+    url("assets/clutch-gang-landscape.jpg") center 22% / cover;
 }
 
 .coming-soon::after { position: absolute; inset: 0; border-block: 1px solid var(--line); content: ""; pointer-events: none; }
