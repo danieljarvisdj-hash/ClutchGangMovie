@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://clutchgangmovie.com/">
   <title>Clutch Gang — Official Film Site</title>
   <link rel="preload" href="assets/octin-spraypaint.otf" as="font" type="font/otf" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
   <a class="skip-link" href="#trailer">Skip to trailer</a>
@@ -31,7 +31,10 @@
   <main id="top">
     <section class="hero" aria-label="Clutch Gang film poster">
       <div class="poster-frame">
-        <img src="assets/clutch-gang-landscape.jpg" width="1672" height="941" alt="Clutch Gang film poster featuring members of the Compton mini-bike community" fetchpriority="high">
+        <picture>
+          <source media="(max-width: 700px)" srcset="assets/clutch-gang-mobile.jpg">
+          <img src="assets/clutch-gang-landscape.jpg" width="1672" height="941" alt="Clutch Gang film poster featuring members of the Compton mini-bike community" fetchpriority="high">
+        </picture>
       </div>
       <a class="scroll-cue" href="#trailer" aria-label="Scroll to watch the trailer">
         <span>Watch the trailer</span>
