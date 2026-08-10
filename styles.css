@@ -31,7 +31,7 @@ body {
 }
 
 a { color: inherit; }
-img { display: block; max-width: 100%; }
+img { display: block; width: 100%; max-width: 100%; height: auto; }
 
 .skip-link {
   position: fixed;
@@ -249,6 +249,7 @@ h2 { font-size: clamp(3.25rem, 9vw, 8rem); }
   .site-nav.is-open { display: flex; }
   .site-nav a { padding: .85rem; }
   .poster-frame { width: 94vw; }
+  .hero::before { background-image: url("assets/clutch-gang-mobile.jpg"); }
   .scroll-cue { right: 50%; transform: translateX(50%); }
   .story-section { display: block; }
   .logline { margin-top: 1.25rem; }
